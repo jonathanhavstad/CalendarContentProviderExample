@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CalendarContentProviderExample</string>
+    <string name="event_title_label">Title</string>
+    <string name="event_description_label">Description</string>
+    <string name="event_location_label">Location</string>
+    <string name="no_information_available"><![CDATA[<No Information Available>]]></string>
+    <string name="event_start_date_label">Event Start</string>
+    <string name="event_end_date_label">Event End</string>
+    <string name="unknwon_dt_field_value">Unknown</string>
+</resources>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:layout_marginLeft="@dimen/main_land_left_margin"
+    android:layout_width="@dimen/landscape_item_size"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:textSize="@dimen/title_text_size"
+        android:paddingTop="@dimen/external_content_padding"
+        android:paddingLeft="@dimen/external_content_padding"
+        android:paddingRight="@dimen/external_content_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/event_title_label"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:textColor="@android:color/white"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:paddingLeft="@dimen/internal_content_padding"
+        android:paddingRight="@dimen/internal_content_padding"
+        android:textSize="@dimen/display_text_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/no_information_available"
+        android:textColorHint="@android:color/white"
+        android:id="@+id/event_title_view"/>
+
+    <TextView
+        android:textSize="@dimen/title_text_size"
+        android:paddingTop="@dimen/external_content_padding"
+        android:paddingLeft="@dimen/external_content_padding"
+        android:paddingRight="@dimen/external_content_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/event_start_date_label"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:textColor="@android:color/white"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:paddingLeft="@dimen/internal_content_padding"
+        android:paddingRight="@dimen/internal_content_padding"
+        android:textSize="@dimen/display_text_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/no_information_available"
+        android:textColorHint="@android:color/white"
+        android:id="@+id/event_start_date_view"/>
+
+    <TextView
+        android:textSize="@dimen/title_text_size"
+        android:paddingTop="@dimen/external_content_padding"
+        android:paddingLeft="@dimen/external_content_padding"
+        android:paddingRight="@dimen/external_content_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/event_end_date_label"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:textColor="@android:color/white"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:paddingLeft="@dimen/internal_content_padding"
+        android:paddingRight="@dimen/internal_content_padding"
+        android:textSize="@dimen/display_text_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/no_information_available"
+        android:textColorHint="@android:color/white"
+        android:id="@+id/event_end_date_view"/>
+
+    <TextView
+        android:textSize="@dimen/title_text_size"
+        android:paddingTop="@dimen/external_content_padding"
+        android:paddingLeft="@dimen/external_content_padding"
+        android:paddingRight="@dimen/external_content_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/event_description_label"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:textColor="@android:color/white"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:paddingLeft="@dimen/internal_content_padding"
+        android:paddingRight="@dimen/internal_content_padding"
+        android:textSize="@dimen/display_text_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/no_information_available"
+        android:textColorHint="@android:color/white"
+        android:id="@+id/event_description_view"/>
+
+    <TextView
+        android:textSize="@dimen/title_text_size"
+        android:paddingTop="@dimen/external_content_padding"
+        android:paddingLeft="@dimen/external_content_padding"
+        android:paddingRight="@dimen/external_content_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/event_location_label"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:textColor="@android:color/white"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:paddingLeft="@dimen/internal_content_padding"
+        android:paddingRight="@dimen/internal_content_padding"
+        android:textSize="@dimen/display_text_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/no_information_available"
+        android:textColorHint="@android:color/white"
+        android:id="@+id/event_location_view"/>
+
+</LinearLayout>
